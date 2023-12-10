@@ -1,0 +1,51 @@
+
+.dollhouse-container {
+  background-image: url('https://wallpapercave.com/wp/CE5EIyx.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 0, 225);
+}
+
+.dollhouse-container h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  background-color: rgb(15, 6, 6);
+}
+
+
+/* Navigation.css */
+
+nav {
+  background-color: #a62b89; 
+}
+
+ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left; 
+}
+
+a {
+  display: block;
+  color: rgb(47, 25, 174); 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ddd; 
+  color: black; 
+}
+
