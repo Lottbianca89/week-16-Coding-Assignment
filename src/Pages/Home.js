@@ -1,10 +1,12 @@
 import React from 'react';
 import './Home.css';
+import Navigation from './Navigation';
 
 
 const Home = () => {
   return (
     <div className='dollhouse-container'>
+      <Navigation/>
       <div className="DollList">
         <div className="About">
           <div className='Contact'>
@@ -16,7 +18,6 @@ const Home = () => {
               <li>Perfect gifts for any occasion.</li>
               <li>Join our community of doll enthusiasts!</li>
             </ul>
-            <button onClick={() => {}}>Press Enter</button>
           </div>
         </div>
       </div>
