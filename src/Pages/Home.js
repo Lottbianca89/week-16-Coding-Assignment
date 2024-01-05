@@ -1,16 +1,14 @@
 import React from 'react';
+import Navigation from './Navigation'; 
 import './Home.css';
-import Navigation from './Navigation';
-
 
 const Home = () => {
   return (
     <div className='dollhouse-container'>
-      <Navigation/>
+      <Navigation />
       <div className="DollList">
         <div className="About">
           <div className='Contact'>
-           
             <h1>Doll House</h1>
             <p>Explore our collection of beautiful dolls crafted with love and attention to detail.</p>
             <ul>

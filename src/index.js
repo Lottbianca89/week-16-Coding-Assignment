@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Home from './Pages/Home';
 import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <React.StrictMode>
-    <Home/>
+    <App/>
 </React.StrictMode>
 </BrowserRouter>
 );
